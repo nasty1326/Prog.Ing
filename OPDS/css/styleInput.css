@@ -1,0 +1,74 @@
+body {
+    font-family: 'Lato', Verdana;
+    font-size: 100%;
+    background: url(/background.png) top left repeat;	
+  }
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#login_container {
+	width: 357px;
+	height: 383px;
+	margin: 100px auto;
+	background: url(/ImageReg/login_bg.png) top left no-repeat;
+}
+
+#form_container {
+	width: 300px;
+	height: 200px;
+	margin: 0px auto;
+	padding-top: 80px;
+}
+
+.text_input:focus {
+	outline: 0;
+}
+
+.text_input {
+	color: #c1c1c3;
+	border: 0;
+	margin: 5px 35px 0 34px;
+	padding: 0px 0px 0px 10px;
+	width: 229px;
+	height: 32px;
+	background: url(/ImageReg/text_input.png) top left no-repeat;
+}
+
+#login {
+	margin: 20px 108px;
+	border: 0;
+	width: 83px;
+	height: 30px;
+	background: url(/ImageReg/login_btn.png) top left no-repeat;
+	cursor:pointer;
+}
+
+#login:hover {opacity:0.9;}
+
+#login:active {
+	background: url(/ImageReg/login_btn_hov.png) top left no-repeat;
+}
+
+.login-text {
+	text-align:center;
+	margin:25px;
+	color:#515151;
+	font-family: 'Lobster', cursive;
+}
+
+
+#footer {/*стиль подвала сайта*/
+	position: fixed;/*фиксирует шарку профиля при прокрутке*/
+	left: 0;/*отступ слева*/
+	bottom: 0; /*отступ снизу*/
+	height: 30px;/*высота блочного элемента*/
+	background-color: rgb(255, 255, 255);/*цвет фона*/
+	color: rgb(0, 0, 0);/*цвет текста*/
+	width: 100%;/*ширина блока*/
+	text-align: left;/*горизонтальное выравнивание текста по отношению к блоку*/
+	padding-top: 10px; /* отступ текста от верхней границы блока*/
+	padding-left: 50px;
+	z-index: 100; /*слой*/
+}
